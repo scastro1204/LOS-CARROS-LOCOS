@@ -1,0 +1,95 @@
+*{
+    margin: 0px;  
+    padding: 0px;
+    }
+    body{
+    background:rgb(146, 145, 145);
+    color: #fff;
+    }
+    #contenedor {
+    width: 1100px; 
+    margin:auto;    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    }
+    header{
+    height: 125px;
+    background-image: url("IMAGES/bkhead.png");
+    }
+    header h1 {
+    font-size: 50px;
+    text-align: center;
+    line-height: 150px;
+    }
+    nav {
+    background: rgb(0, 0, 0);
+    height: 45px;
+    }
+    nav h2 {
+    font-size: 30px;
+    text-align: center;
+    }
+    #contenido {
+    width: 838px;
+    height: 500px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("IMAGES/bkall.png");
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    }
+    #contenido iframe {
+    align-self: center;
+    display: block;
+    margin: 0 auto;
+    }
+    #contenido h2{
+    font-size: 30px;
+    text-align: center;
+    }
+    #contenido p {
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    }
+    aside{
+    width: 250px;
+    height: 500px;
+    background: rgb(139, 43, 43);
+    margin-top: 10px;
+    float: right;
+    }
+    aside h2 {
+    font-size: 30px;
+    text-align: center;
+    }
+    footer{
+    background: #000;
+    clear:both;
+    }
+    footer h2 {
+    font-size: 40px;
+    text-align: center;
+    padding:20px;
+    font-style:italic;
+    }
+    #contacto {
+    max-width: 400px;
+    width: 80%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px auto;
+    }
+    input {
+    padding: 5px;
+    }
